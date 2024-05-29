@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_library" model="ir.ui.view">
+            <field name="name">nombre descriptivo</field>
+            <field name="model">sale.order</field>
+            <field name="priority" eval="15"/>
+            <field name="inherit_id" ref="sale_renting.rental_order_form_view"/>
+            <field name="arch" type="xml">
+                <!-- <xpath expr="//form[hasclass('oe_form_configuration')]" position="inside"> -->
+    </record>
+</odoo>
